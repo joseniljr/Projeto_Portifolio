@@ -68,9 +68,7 @@
     --transition-default: all 0.3s ease;
 }
 
-/* ========================================
-   CONFIGURAÇÕES BÁSICAS
-======================================== */
+/* CONFIGURAÇÕES BÁSICAS */
 html {
     scroll-behavior: smooth;
 }
@@ -88,19 +86,13 @@ main {
     flex: 1;
 }
 
-/* ========================================
-   SEÇÕES - BASE COMUM
-======================================== */
+  /* SEÇÕES - BASE COMUM */
 .section-container {
     max-width: 70rem;
     margin: 0 auto;
     padding: var(--spacing-xl) var(--spacing-md);
     scroll-margin-top: 6rem;
 }
-
-/* ========================================
-   BOTÕES
-======================================== */
 
 /* Container para botões*/
 .buttons-container {
@@ -160,9 +152,7 @@ main {
     font-size: var(--text-sm);
 }
 
-/* ========================================
-   SEÇÃO HEADER - CABEÇALHO E MENU
-======================================== */
+/* SEÇÃO HEADER - CABEÇALHO E MENU */
 header {
     position: sticky;
     top: 0;
@@ -209,9 +199,7 @@ header a:hover {
     padding: var(--spacing-xs);
 }
 
-/* ========================================
-   SEÇÃO HERO
-======================================== */
+/* SEÇÃO HERO */
 .hero-container {
     display: flex;
     align-items: center;
